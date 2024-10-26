@@ -23,7 +23,8 @@
         android:id="@+id/recyclerViewStudents"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="5dp" />
+        android:padding="5dp"
+        android:backgroundTint="@color/secondaryColor"/>
     <Button
         android:id="@+id/btnAddAnother"
         android:layout_width="match_parent"
