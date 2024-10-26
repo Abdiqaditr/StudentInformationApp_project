@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fragment_data_entry.xml -->
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:text="Enter Student Details"
+        style="@style/TextViewTitle"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:id="@+id/etStudentName"
+        android:hint="Student Name"
+        android:minHeight="40dp"
+        android:padding="12dp"
+        android:backgroundTint="@color/primaryColor"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etStudentAge"
+        android:hint="Age"
+        android:inputType="number"
+        android:minHeight="40dp"
+        android:padding="12dp"
+        android:backgroundTint="@color/primaryColor"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etStudentGrade"
+        android:hint="Grade"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:backgroundTint="@color/primaryColor"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etStudentMajor"
+        android:hint="Major (Optional)"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:backgroundTint="@color/primaryColor"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <Button
+        android:id="@+id/btnSubmit"
+        android:text="Submit"
+        style="@style/ButtonStyle"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        />
+    <Button
+        android:id="@+id/btnClear"
+        android:text="Clear"
+        style="@style/ButtonStyle"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+         />
+</LinearLayout>
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>
