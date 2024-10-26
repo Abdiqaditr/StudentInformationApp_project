@@ -39,7 +39,7 @@ public class DisplayFragment extends Fragment {
             StudentAdapter adapter = new StudentAdapter(students);
             recyclerView.setAdapter(adapter);
         }
-
+        //add button addAnother data when you when to back data entry
         Button btnAddAnother = view.findViewById(R.id.btnAddAnother);
         btnAddAnother.setOnClickListener(v -> {
             requireActivity().getSupportFragmentManager().popBackStack(); // Navigate back to DataEntryFragment
