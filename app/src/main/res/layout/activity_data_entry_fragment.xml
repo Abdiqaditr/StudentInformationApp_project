@@ -35,7 +35,7 @@
         android:inputType="number"
         android:minHeight="40dp"
         android:padding="12dp"
-        android:backgroundTint="@color/primaryColor"
+        android:backgroundTint="@color/secondaryColor"
         android:layout_marginTop="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
