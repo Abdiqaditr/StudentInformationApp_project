@@ -1,6 +1,4 @@
 package com.iuea.studentinformationapp;
-
-// Student.java
 import android.os.Parcel;
 import android.os.Parcelable;
 
