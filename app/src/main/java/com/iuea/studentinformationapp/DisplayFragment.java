@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
-
+//create class that display student data
 public class DisplayFragment extends Fragment {
 
     private RecyclerView recyclerView;
