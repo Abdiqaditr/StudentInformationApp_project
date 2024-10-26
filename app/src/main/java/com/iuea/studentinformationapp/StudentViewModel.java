@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// i create studenviewModel class that handel lis of current studen recod
 public class StudentViewModel extends ViewModel {
 
     private final MutableLiveData<List<Student>> students = new MutableLiveData<>(new ArrayList<>());
