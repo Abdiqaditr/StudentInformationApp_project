@@ -71,8 +71,7 @@ public class DataEntryFragment extends Fragment {
         Student student = new Student(name, age, grade, major);
         studentViewModel.addStudent(student);
         Toast.makeText(requireContext(), "Student Added", Toast.LENGTH_SHORT).show();
-
-        // Load the DisplayFragment
+        
         loadDisplayFragment();
     }
 
