@@ -1,6 +1,5 @@
 package com.iuea.studentinformationapp;
 
-// StudentViewModel.java
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
