@@ -46,7 +46,6 @@ public class DataEntryFragment extends Fragment {
     }
 
     private void submitData() {
-        // Validation logic
         String name = etName.getText().toString().trim();
         String ageStr = etAge.getText().toString().trim();
         String gradeStr = etGrade.getText().toString().trim();
