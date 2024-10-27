@@ -9,4 +9,5 @@
     <color name="backgroundColor">#F5F5F5</color>
     <color name="hindcolor">#C1C34A</color>
     <color name="titlecolor">#AF4C74</color>
+    <color name="greencolor">#65AF4C</color>
 </resources>
