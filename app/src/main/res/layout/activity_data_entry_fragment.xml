@@ -65,6 +65,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:layout_gravity="center"
+    android:padding="16dp"
     >
     <Button
         android:id="@+id/btnSubmit"
