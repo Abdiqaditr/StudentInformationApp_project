@@ -1,6 +1,5 @@
 package com.iuea.studentinformationapp;
 
-// StudentAdapter.java
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
