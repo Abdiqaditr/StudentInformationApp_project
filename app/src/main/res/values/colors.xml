@@ -7,4 +7,5 @@
     <color name="secondaryColor">#03DAC5</color>
     <color name="textColor">#212121</color>
     <color name="backgroundColor">#F5F5F5</color>
+    <color name="hindcolor">#C1C34A</color>
 </resources>
