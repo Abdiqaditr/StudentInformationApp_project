@@ -44,7 +44,7 @@
         android:id="@+id/etStudentGrade"
         android:hint="Grade"
         android:minHeight="48dp"
-        android:padding="12dp"
+        android:padding="16dp"
         android:backgroundTint="@color/redcolor"
         android:layout_marginTop="8dp"
         android:layout_width="match_parent"
